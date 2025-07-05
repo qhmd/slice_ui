@@ -24,8 +24,14 @@ flutter:
     - assets/Facebook_Logo_Primary.png
     - assets/logo_h.png
     - assets/twitter.png
+    - assets/smile_person.png
   
   fonts:
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
