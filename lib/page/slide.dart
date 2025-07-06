@@ -33,7 +33,7 @@ class _SliceState extends State<Slide> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              SizedBox(height: 60,),
+              SizedBox(height: 230,),
               Image.asset("assets/logo_h.png"),
               SizedBox(height: 30,),
               RichText(
@@ -58,7 +58,7 @@ class _SliceState extends State<Slide> {
                   ],
                 ),
               ),
-              SizedBox(height: 200,),
+              SizedBox(height: 300,),
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(

@@ -1,0 +1,4 @@
+Primary = 0xFFF54D4D
+border = 0xFFD7D7D7
+
+text 2= 0xFF929292
