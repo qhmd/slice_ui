@@ -14,11 +14,10 @@ class Slice4State extends State<Slice4> {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 231, 231, 231),
         leading: Icon(Icons.arrow_back_ios),
-        title: Center(
-          child: Text(
-            "Input Jumlah Saldo",
-            style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
-          ),
+        centerTitle: true,
+        title: Text(
+          "Input Jumlah Saldo",
+          style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
         ),
       ),
       body: Container(

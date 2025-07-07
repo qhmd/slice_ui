@@ -6,6 +6,7 @@ import 'package:slicing_1/page/slice_4.dart';
 import 'package:slicing_1/page/slice_5.dart';
 import 'package:slicing_1/page/slide.dart';
 import 'package:slicing_1/page/slide7.dart';
+import 'package:slicing_1/page/slide8.dart';
 import 'package:slicing_1/page/slide_6.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
-  final List<Widget> _page = [Slice1(), Slice2(), Slide(), Slice3(), Slice4(), Slice5(), Slice6(), Slide7()];
+  final List<Widget> _page = [Slice1(), Slice2(), Slide(), Slice3(), Slice4(), Slice5(), Slice6(), Slide7(), Slice8()];
   int _indexPage = 0;
 
   @override
@@ -47,6 +48,7 @@ class _MainAppState extends State<MainApp> {
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Slice for 5"),
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Slice for 6"),
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Slice for 7"),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Slice for 8"),
           ],
         ),
       ),

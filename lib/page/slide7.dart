@@ -123,20 +123,6 @@ class Slide7 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             const Text(
-                              "Recipient",
-                              style: TextStyle(fontFamily: "Roboto"),
-                            ),
-                            const Text(
-                              "ARIEF WAHDANI  ALFHAT",
-                              style: TextStyle(fontFamily: "Roboto"),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 20),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            const Text(
                               "Bank Destination",
                               style: TextStyle(fontFamily: "Roboto"),
                             ),
@@ -182,25 +168,31 @@ class Slide7 extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
-                            Row(
-                              children: [
-                                const Icon(Icons.download, color: Colors.blue),
-                                const SizedBox(width: 10),
-                                const Text(
-                                  "Download",
-                                  style: TextStyle(color: Colors.blue),
-                                ),
-                              ],
+                            GestureDetector(
+                              onTap: () {print("tes");},
+                              child: Row(
+                                children: [
+                                  const Icon(Icons.download, color: Colors.blue),
+                                  const SizedBox(width: 10),
+                                  const Text(
+                                    "Download",
+                                    style: TextStyle(color: Colors.blue),
+                                  ),
+                                ],
+                              ),
                             ),
-                            Row(
-                              children: [
-                                const Icon(Icons.share_rounded, color: Colors.blue),
-                                const SizedBox(width: 10),
-                                const Text(
-                                  "Share",
-                                  style: TextStyle(color: Colors.blue),
-                                ),
-                              ],
+                            GestureDetector(
+                              onTap: () {},
+                              child: Row(
+                                children: [
+                                  const Icon(Icons.share_rounded, color: Colors.blue),
+                                  const SizedBox(width: 10),
+                                  const Text(
+                                    "Share",
+                                    style: TextStyle(color: Colors.blue),
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),
