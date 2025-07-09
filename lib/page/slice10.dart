@@ -13,14 +13,13 @@ class Slice10 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return SafeArea( 
       child: SingleChildScrollView(
         child: Container(
           color: Colors.white,
           child: Stack(
             children: [
               Container(
-                width: 375.w,
                 height: 205.h,
                 decoration: BoxDecoration(
                   color: Color(secondColor),
@@ -32,7 +31,6 @@ class Slice10 extends StatelessWidget {
                 ),
               ),
               Container(
-                width: 375.w,
                 height: 200.h,
                 decoration: BoxDecoration(
                   color: Color(primaryColor),
@@ -87,8 +85,8 @@ class Slice10 extends StatelessWidget {
                                   SizedBox(width: 10.w),
                                   CircleAvatar(
                                     backgroundColor: Colors.white,
-                                    radius: 15,
-                                    child: Icon(Icons.person),
+                                    radius: 15.w,
+                                    child: Icon(Icons.person, size: 18.w,),
                                   ),
                                 ],
                               ),
@@ -98,7 +96,7 @@ class Slice10 extends StatelessWidget {
                         SizedBox(height: 30.h),
                         Text(
                           "Total Balance",
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(color: Colors.white, fontSize: 14.sp),
                         ),
                         SizedBox(height: 10.h),
                         DefaultTextStyle(

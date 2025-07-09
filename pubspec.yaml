@@ -27,6 +27,9 @@ flutter:
     - assets/logo_h.png
     - assets/twitter.png
     - assets/smile_person.png
+    - assets/logomls.png
+    - assets/LI-In-Bug.png
+    
   
   fonts:
     - family: Poppins

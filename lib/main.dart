@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slicing_1/page/slice10.dart';
+import 'package:slicing_1/page/slice11.dart';
 import 'package:slicing_1/page/slice9.dart';
 import 'package:slicing_1/page/slice_1.dart';
 import 'package:slicing_1/page/slice_2.dart';
@@ -36,13 +37,14 @@ class _MainAppState extends State<MainApp> {
     Slice8(),
     Slice9(),
     Slice10(),
+    Slice11(),
   ];
   int _indexPage = 0;
 
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: Size(375, 812),
+      designSize: Size(430, 932),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
@@ -104,6 +106,10 @@ class _MainAppState extends State<MainApp> {
                 BottomNavigationBarItem(
                   icon: Icon(Icons.home),
                   label: "Slice for 10",
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.home),
+                  label: "Slice for 11",
                 ),
               ],
             ),

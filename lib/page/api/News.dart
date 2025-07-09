@@ -1,9 +1,13 @@
 class News {
-  int id;
-  String title;
-  String subtitle;
+  final int id;
+  final String title;
+  final String body;
 
-  News({required this.id, required this.title, required this.subtitle});
+  const News({required this.id, required this.title, required this.body});
   factory News.fromJson(Map<String, dynamic> json) =>
-      News(id: json['id'], title: json['title'], subtitle: json['body']);
+    News(
+      id: json['id'],
+      title: json['title'],
+      body: json['body']
+    );
 }
